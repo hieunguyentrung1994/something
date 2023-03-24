@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.header{
+    position: relative;
+}
+.absolute{
+position: absolute;
+top: 230px;
+left: 10px;
+background-color: rgba(255, 166, 0, 0.375);
+width: 300px;
+}
+.list-iteam{
+    display: flex;
+    justify-content: space-between;
+    width: 500px;
+    flex-wrap: wrap;
+}
+.iteam{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.iteam div h4{
+    width: 200px;
+}
+.iteam div img{
+    border-top: 10px solid orange;
+}
